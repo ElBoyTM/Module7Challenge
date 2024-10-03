@@ -57,7 +57,7 @@ const questions = [
 function writeToFile(fileName, data) {
     const readmeContent = generateMarkdown(data);
     
-    fs.writeFile('index.html', readmeContent, (err) =>
+    fs.writeFile(fileName, readmeContent, (err) =>
         err ? console.log(err) : console.log('Successfully created README!')
     );
 }

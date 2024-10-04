@@ -18,11 +18,11 @@ function generateMarkdown(data) {
   ${data.description}
 
   ## Table of Contents
-  [Installation](#installation)
-  [Usage](#usage)
-  [License](#license)
-  [Contributing](#contributing)
-  [Tests](#tests)
+  [Installation](#installation)\n
+  [Usage](#usage)\n
+  [License](#license)\n
+  [Contributing](#contributing)\n
+  [Tests](#tests)\n
   [Questions](#questions)
 
   ## Installation
@@ -40,7 +40,7 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## Questions
-  My GitHub: ${data.username}
+  My GitHub: ${data.username}\n
   My email: ${data.email}
 `;
 }

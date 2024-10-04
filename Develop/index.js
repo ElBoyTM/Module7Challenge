@@ -65,10 +65,10 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer
-        .prompt([
+        .prompt(
             questions
-        ])
-        .then(
+        )
+        .then(data =>
             writeToFile('README.md', data)
         );
 };

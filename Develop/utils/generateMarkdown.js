@@ -6,7 +6,8 @@ function renderLicenseBadge(license) {}
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license !== 'None') {
-    return `[License](#license)\n`;
+    return `
+  [License](#license)\n`;
   } else {
     return ``;
   };
@@ -16,9 +17,9 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license !== 'None') {
-    return `## License
+    return `
     
-    `;
+  ## License`;
   } else {
     return ``;
   };
@@ -35,8 +36,7 @@ function generateMarkdown(data) {
 
   ## Table of Contents
   [Installation](#installation)\n
-  [Usage](#usage)\n
-  ${licenseLink}
+  [Usage](#usage)\n${licenseLink}
   [Contributing](#contributing)\n
   [Tests](#tests)\n
   [Questions](#questions)
@@ -45,9 +45,8 @@ function generateMarkdown(data) {
   ${data.installation}
 
   ## Usage
-  ${data.usage}
+  ${data.usage}${licenseSection}
 
-  ${licenseSection}
   ## Contributing
   ${data.contributing}
 

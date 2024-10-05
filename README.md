@@ -20,7 +20,7 @@
   ## Usage
   See video
 
-  <iframe src="https://drive.google.com/file/d/1Yo4Ky6ubn3lvlr3yHAsD4mqE1TKk2_pN/preview" width="320" height="240" allow="autoplay"></iframe>
+  https://drive.google.com/file/d/1Yo4Ky6ubn3lvlr3yHAsD4mqE1TKk2_pN/preview
 
   (Note: "Module7Challenge" is "README-Generator")
 
